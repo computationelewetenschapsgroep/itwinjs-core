@@ -28,6 +28,20 @@ See [rush.json](./rush.json) for the complete list of packages and [Versioning.m
 
 Each package has its own **node_modules** directory that contains symbolic links to _common_ dependencies managed by Rush.
 
+## Docker
+
+The is a Dockerfile in the root of the project that can be used to containerize the library. The docker file was created as the library is not supported on macos x64 architectures.
+
+To build the docker image
+
+```docker build -t itwinjs-core .```
+
+To run the docker image
+
+```docker run -p 3000:3000 itwinjs-core:latest```
+
+Note that the image runs the ```display-test-app``` on port ```3001```
+
 ## Features
 
 - ✅ Create infrastructure digital twins of assets or projects
