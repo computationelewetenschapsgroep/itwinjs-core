@@ -42,6 +42,12 @@ To run the docker image
 
 Note that the image runs the ```display-test-app``` on port ```3001```
 
+## Examples
+
+Getting an understanding of the building blocks of the library through small code snippets is important.
+Therefore we are adding small example snippets to demonstrate various capabilities of the library under ```/scripts/snippets```
+The example snippets are included in the build pipeline and are therefore built as part of the docker image as well.
+
 ## Features
 
 - ✅ Create infrastructure digital twins of assets or projects

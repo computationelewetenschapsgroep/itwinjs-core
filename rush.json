@@ -17,10 +17,14 @@
       "extensions",
       "integration-testing"
     ],
-    "ignoredNpmScopes": ["@types"]
+    "ignoredNpmScopes": [
+      "@types"
+    ]
   },
   "gitPolicy": {
-    "allowedEmailRegExps": ["[^@]+@users\\.noreply\\.github\\.com"],
+    "allowedEmailRegExps": [
+      "[^@]+@users\\.noreply\\.github\\.com"
+    ],
     "sampleEmail": "mrexample@users.noreply.github.com"
   },
   "repository": {
@@ -425,6 +429,12 @@
       "reviewCategory": "integration-testing",
       "shouldPublish": true,
       "versionPolicyName": "prerelease-monorepo-lockStep"
+    },
+    {
+      "packageName": "scripts-snippets",
+      "projectFolder": "scripts/snippets",
+      "reviewCategory": "internal",
+      "shouldPublish": false
     }
   ]
 }
