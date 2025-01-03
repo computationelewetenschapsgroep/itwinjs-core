@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ECSchema schemaName="OffshoreEnergy" alias="OffshoreEnergy" version="01.00.00" xmlns="http://www.bentley.com/schemas/Bentley.ECXML.3.1">
+
+    <ECSchemaReference name="BisCore" version="01.00.04" alias="bis"/>
+
+
+    <ECEntityClass typeName="monopile">
+        <BaseClass>bis:PhysicalModel</BaseClass>
+        <ECProperty propertyName="Geometry"           typeName="binary"  description="Array property to store Element Byte data as string" displayLabel="Element Geometry"/>
+
+    </ECEntityClass>
+
+
+</ECSchema>
